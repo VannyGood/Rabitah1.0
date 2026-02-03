@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimalist Design System - Black & White with Subtle Teal Accent */
+
+@layer base {
+  :root {
+    /* Core Palette - Clean Whites */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 8%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 8%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 8%;
+    
+    /* Primary: Subtle Teal/Cyan Accent */
+    --primary: 174 62% 47%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Secondary: Clean Black */
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 0 0% 100%;
+    
+    /* Muted: Soft Gray */
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+    
+    /* Accent: Very Light Teal */
+    --accent: 174 40% 96%;
+    --accent-foreground: 174 62% 35%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 0 0% 90%;
+    --input: 0 0% 96%;
+    --ring: 174 62% 47%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 0 0% 20%;
+    --sidebar-primary: 174 62% 47%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 174 40% 96%;
+    --sidebar-accent-foreground: 174 62% 35%;
+    --sidebar-border: 0 0% 90%;
+    --sidebar-ring: 174 62% 47%;
+    
+    /* Architectural Shadows */
+    --shadow-architectural: 0 20px 40px -15px hsl(0 0% 0% / 0.1);
+    --shadow-elegant: 0 4px 20px hsl(0 0% 0% / 0.06);
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(to bottom, hsl(0 0% 0% / 0.7), hsl(0 0% 0% / 0.5));
+    --gradient-overlay: linear-gradient(to top, hsl(0 0% 0% / 0.8), transparent);
+  }
+
+  .dark {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 96%;
+    
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 96%;
+    
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 96%;
+    
+    --primary: 174 62% 55%;
+    --primary-foreground: 0 0% 8%;
+    
+    --secondary: 0 0% 14%;
+    --secondary-foreground: 0 0% 96%;
+    
+    --muted: 0 0% 14%;
+    --muted-foreground: 0 0% 60%;
+    
+    --accent: 174 50% 12%;
+    --accent-foreground: 174 62% 65%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 0 0% 18%;
+    --input: 0 0% 14%;
+    --ring: 174 62% 55%;
+    
+    --sidebar-background: 0 0% 6%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 174 62% 55%;
+    --sidebar-primary-foreground: 0 0% 8%;
+    --sidebar-accent: 174 50% 12%;
+    --sidebar-accent-foreground: 174 62% 65%;
+    --sidebar-border: 0 0% 18%;
+    --sidebar-ring: 174 62% 55%;
+    
+    --gradient-hero: linear-gradient(to bottom, hsl(0 0% 0% / 0.85), hsl(0 0% 0% / 0.7));
+    --gradient-overlay: linear-gradient(to top, hsl(0 0% 0% / 0.9), transparent);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  
+  /* Architectural Typography */
+  .text-architectural {
+    @apply tracking-tight leading-none font-light;
+  }
+  
+  .text-display {
+    @apply tracking-tight leading-[1.1] font-light;
+  }
+  
+  .text-minimal {
+    @apply tracking-[0.2em] uppercase text-xs font-medium;
+  }
+  
+  /* Hero Overlay for Images */
+  .hero-overlay {
+    background: var(--gradient-hero);
+  }
+  
+  /* Subtle Reveal Animation */
+  .reveal {
+    @apply opacity-0 translate-y-6;
+    animation: reveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  
+  .reveal-delayed {
+    @apply opacity-0 translate-y-6;
+    animation: reveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards;
+  }
+  
+  @keyframes reveal {
+    to {
+      @apply opacity-100 translate-y-0;
+    }
+  }
+}
+
+@layer utilities {
+  /* Minimal Card Hover */
+  .card-hover {
+    @apply transition-all duration-500 hover:shadow-lg;
+  }
+  
+  /* Line animation for links */
+  .link-underline {
+    @apply relative;
+  }
+  
+  .link-underline::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-px bg-current transition-all duration-300;
+  }
+  
+  .link-underline:hover::after {
+    @apply w-full;
+  }
+}
