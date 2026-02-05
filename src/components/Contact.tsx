@@ -13,15 +13,14 @@ const Contact = () => {
             <div>
               <span className="text-minimal text-muted-foreground mb-4 block">GET IN TOUCH</span>
               <h2 className="text-4xl md:text-5xl lg:text-6xl text-architectural mb-8">
-                Let's Build
-                <br />
-                Something Great
+                Tell us what you're building
               </h2>
               
               <p className="text-muted-foreground leading-relaxed mb-12 max-w-md">
-                Have a project in mind? We'd love to hear about it. 
-                Drop us a message and we'll get back to you within 24 hours.
+                Share your goals, timeline, and must-have features. We'll reply within 1 business day with next steps and a clear plan.
               </p>
+              
+              <p className="text-minimal text-muted-foreground text-sm mb-6">Include: Goal • Deadline • Budget range (optional)</p>
               
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
@@ -30,8 +29,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <span className="text-minimal text-muted-foreground block mb-1">Email</span>
-                    <a href="mailto:hello@nexus.dev" className="hover:text-primary transition-colors">
-                      hello@nexus.dev
+                    <a href="mailto:hello@rabitah.com" className="hover:text-primary transition-colors">
+                      hello@rabitah.com
                     </a>
                   </div>
                 </div>
@@ -42,8 +41,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <span className="text-minimal text-muted-foreground block mb-1">Telegram</span>
-                    <a href="https://t.me/nexusdev" className="hover:text-primary transition-colors">
-                      @nexusdev
+                    <a href="https://t.me/rabitah" className="hover:text-primary transition-colors">
+                      @rabitah on Telegram
                     </a>
                   </div>
                 </div>
@@ -92,7 +91,7 @@ const Contact = () => {
                   size="lg"
                   className="w-full sm:w-auto px-8 bg-primary hover:bg-primary/90 text-primary-foreground"
                 >
-                  Send Message
+                  Send project details
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </form>

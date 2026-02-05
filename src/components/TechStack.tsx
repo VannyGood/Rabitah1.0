@@ -73,9 +73,21 @@ const TechStack = () => {
           {/* Header */}
           <div className="mb-16 md:mb-20">
             <span className="text-minimal text-muted-foreground mb-4 block">TECHNOLOGIES</span>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl text-architectural">
-              Our Stack
+            <h2 className="text-4xl md:text-5xl lg:text-6xl text-architectural mb-4">
+              Modern stack. Production-ready delivery.
             </h2>
+            <p className="text-muted-foreground leading-relaxed max-w-2xl mb-2">
+              We use proven technologies that keep products fast, secure, and maintainable. That means fewer bugs, faster iterations, and lower long-term costs.
+            </p>
+            <p className="text-minimal text-muted-foreground/80 text-sm mb-8">
+              React/Next.js • React Native/Flutter • Node/Python • Postgres • CI/CD
+            </p>
+            <a 
+              href="/#approach" 
+              className="inline-flex items-center text-sm font-medium text-primary hover:underline"
+            >
+              See how we deliver
+            </a>
           </div>
           
           {/* Tech Grid */}

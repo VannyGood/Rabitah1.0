@@ -53,10 +53,19 @@ const Services = () => {
         <div className="max-w-7xl mx-auto">
           {/* Header */}
           <div className="mb-16 md:mb-20">
-            <span className="text-minimal text-muted-foreground mb-4 block">WHAT WE DO</span>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl text-architectural">
-              Services
+            <span className="text-minimal text-muted-foreground mb-4 block">SERVICES</span>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl text-architectural mb-6">
+              Digital product development services
             </h2>
+            <p className="text-muted-foreground leading-relaxed max-w-2xl mb-10">
+              Choose a lane—or let us scope the fastest path to launch. We design, build, and optimize products that are easy to use, fast to load, and ready to scale.
+            </p>
+            <a 
+              href="/services" 
+              className="inline-flex items-center text-sm font-medium text-primary hover:underline"
+            >
+              Explore all services
+            </a>
           </div>
           
           {/* Services Grid */}

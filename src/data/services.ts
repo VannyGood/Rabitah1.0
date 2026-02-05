@@ -4,6 +4,7 @@ export interface ServiceData {
   title: string;
   subtitle: string;
   description: string;
+  bestFor?: string;
   features: string[];
   process: {
     step: string;
@@ -21,9 +22,10 @@ export const servicesData: ServiceData[] = [
   {
     slug: "web-development",
     number: "01",
-    title: "WEB DEVELOPMENT",
-    subtitle: "High-performance websites and web applications",
-    description: "We build modern, scalable web applications that drive business results. From landing pages to complex SaaS platforms, our development process ensures clean code, optimal performance, and seamless user experiences.",
+    title: "Web Development",
+    subtitle: "Fast, scalable builds with SEO-ready foundations.",
+    description: "We deliver a clear scope, weekly progress, and production-ready quality. Expect a product that loads fast, stays stable, and is easy to maintain as you grow.",
+    bestFor: "MVP launches, marketing sites, SaaS rebuilds, performance fixes.",
     features: [
       "Custom website development",
       "E-commerce platforms",
@@ -65,9 +67,10 @@ export const servicesData: ServiceData[] = [
   {
     slug: "mobile-apps",
     number: "02",
-    title: "MOBILE APPS",
-    subtitle: "Native iOS and Android applications",
-    description: "We create mobile applications that users love. Whether you need a consumer app or enterprise solution, we deliver polished, performant apps that scale with your business.",
+    title: "Mobile Apps",
+    subtitle: "Native and cross-platform apps that users love.",
+    description: "We deliver a clear scope, weekly progress, and production-ready quality. Expect an app that performs well, follows platform guidelines, and scales with your business.",
+    bestFor: "Consumer apps, fintech, e-commerce, internal tools.",
     features: [
       "Native iOS development (Swift)",
       "Native Android development (Kotlin)",
@@ -109,9 +112,10 @@ export const servicesData: ServiceData[] = [
   {
     slug: "telegram-solutions",
     number: "03",
-    title: "TELEGRAM SOLUTIONS",
-    subtitle: "Custom Mini Apps and bots",
-    description: "Leverage Telegram's massive user base with custom Mini Apps and bots. We build engaging experiences for communities, e-commerce, games, and more—all within the Telegram ecosystem.",
+    title: "Telegram Solutions",
+    subtitle: "Mini Apps and bots that engage and convert.",
+    description: "We deliver a clear scope, weekly progress, and production-ready quality. Expect a Mini App or bot that integrates smoothly with Telegram and your backend.",
+    bestFor: "Communities, games, e-commerce, loyalty, payments.",
     features: [
       "Telegram Mini Apps",
       "Custom bot development",
@@ -153,9 +157,10 @@ export const servicesData: ServiceData[] = [
   {
     slug: "ui-ux-design",
     number: "04",
-    title: "UI/UX DESIGN",
-    subtitle: "User-centered design that converts",
-    description: "Great design is invisible—it just works. We create intuitive, beautiful interfaces backed by research and user testing. Every pixel serves a purpose.",
+    title: "UI/UX Design",
+    subtitle: "User-centered design that converts.",
+    description: "We deliver a clear scope, weekly progress, and production-ready deliverables. Expect intuitive interfaces backed by research and ready for development.",
+    bestFor: "Product redesigns, design systems, usability audits.",
     features: [
       "User research & personas",
       "Information architecture",
@@ -197,9 +202,10 @@ export const servicesData: ServiceData[] = [
   {
     slug: "custom-software",
     number: "05",
-    title: "CUSTOM SOFTWARE",
-    subtitle: "Tailored solutions for complex problems",
-    description: "When off-the-shelf doesn't cut it, we build custom. From internal tools to complex integrations, we create software that fits your unique business needs perfectly.",
+    title: "Custom Software",
+    subtitle: "Tailored solutions for complex problems.",
+    description: "We deliver a clear scope, weekly progress, and production-ready quality. Expect software that fits your workflows and scales with your business.",
+    bestFor: "Internal tools, APIs, integrations, automation.",
     features: [
       "Custom CRM/ERP systems",
       "API development",
@@ -241,9 +247,10 @@ export const servicesData: ServiceData[] = [
   {
     slug: "growth-marketing",
     number: "06",
-    title: "GROWTH & MARKETING",
-    subtitle: "Launch strategies that get results",
-    description: "Building great products is only half the battle. We help you reach your audience with strategic branding, digital marketing, and growth tactics that drive real results.",
+    title: "Growth & Marketing",
+    subtitle: "Launch strategies that get results.",
+    description: "We deliver a clear scope, ongoing collaboration, and measurable outcomes. Expect branding and growth tactics that align with your product and audience.",
+    bestFor: "Launch campaigns, SEO, content strategy, conversion optimization.",
     features: [
       "Brand strategy & identity",
       "Digital marketing campaigns",

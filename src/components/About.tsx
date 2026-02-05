@@ -8,22 +8,29 @@ const About = () => {
             <div>
               <span className="text-minimal text-secondary-foreground/60 mb-4 block">ABOUT US</span>
               <h2 className="text-4xl md:text-5xl lg:text-6xl text-architectural mb-8">
-                We're a Team of
-                <br />
-                <span className="text-primary">Builders</span>
+                A senior team for product execution
               </h2>
               
               <div className="space-y-6 text-secondary-foreground/70">
                 <p className="leading-relaxed">
-                  We're a remote-first digital agency focused on building products that matter. 
-                  No fluff, no unnecessary features — just clean, functional software that solves real problems.
+                  We're a remote-first team that builds products with a clear point of view: ship what matters, measure what works, and keep the codebase clean. From MVPs to rewrites, we partner closely with your team to reduce risk and speed up delivery.
                 </p>
                 
                 <p className="leading-relaxed">
-                  Founded in 2019, we've shipped over 150 projects for startups and established businesses 
-                  across fintech, e-commerce, SaaS, and web3.
+                  150+ launches since 2019 across Startups, SaaS, Fintech, E-commerce, and Communities.
+                </p>
+                
+                <p className="text-minimal text-secondary-foreground/60 text-sm">
+                  Who we work with: Startups • SaaS • Fintech • E-commerce • Communities
                 </p>
               </div>
+              
+              <a 
+                href="/about" 
+                className="inline-flex items-center text-sm font-medium text-primary mt-8 hover:underline"
+              >
+                Learn how we work
+              </a>
             </div>
             
             {/* Right Column - Stats & Approach */}
@@ -49,7 +56,7 @@ const About = () => {
               </div>
               
               {/* Approach */}
-              <div className="pt-8 border-t border-secondary-foreground/10">
+              <div className="pt-8 border-t border-secondary-foreground/10" id="approach">
                 <span className="text-minimal text-secondary-foreground/60 mb-4 block">Our Approach</span>
                 <ul className="space-y-3 text-secondary-foreground/70">
                   <li className="flex items-center gap-3">

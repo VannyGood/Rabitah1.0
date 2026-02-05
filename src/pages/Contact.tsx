@@ -15,15 +15,20 @@ const Contact = () => {
             <div className="grid md:grid-cols-2 gap-16 md:gap-20">
               <div>
                 <span className="text-minimal text-muted-foreground mb-4 block">GET IN TOUCH</span>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl text-architectural mb-8">
-                  Let's Build
-                  <br />
-                  Something Great
+                <h1 className="text-4xl md:text-5xl lg:text-6xl text-architectural mb-6">
+                  Talk to Rabitah
                 </h1>
+                <p className="text-xl text-muted-foreground mb-4">
+                  Tell us your goal. We'll reply within 1 business day.
+                </p>
                 
                 <p className="text-muted-foreground leading-relaxed mb-12 max-w-md">
-                  Have a project in mind? We'd love to hear about it. 
-                  Drop us a message and we'll get back to you within 24 hours.
+                  Share what you're building, your target date, and any constraints. We'll come back with a recommended plan and a clear estimate.
+                </p>
+                
+                <h2 className="text-minimal text-muted-foreground mb-4">Contact details</h2>
+                <p className="text-sm text-muted-foreground mb-6">
+                  Email us for detailed requests, or message on Telegram for quick questions. We respond within 1 business day.
                 </p>
                 
                 <div className="space-y-6">
@@ -33,8 +38,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <span className="text-minimal text-muted-foreground block mb-1">Email</span>
-                      <a href="mailto:hello@nexus.dev" className="hover:text-primary transition-colors">
-                        hello@nexus.dev
+                      <a href="mailto:hello@rabitah.com" className="hover:text-primary transition-colors">
+                        hello@rabitah.com
                       </a>
                     </div>
                   </div>
@@ -45,8 +50,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <span className="text-minimal text-muted-foreground block mb-1">Telegram</span>
-                      <a href="https://t.me/nexusdev" className="hover:text-primary transition-colors">
-                        @nexusdev
+                      <a href="https://t.me/rabitah" className="hover:text-primary transition-colors">
+                        @rabitah on Telegram
                       </a>
                     </div>
                   </div>
@@ -54,6 +59,10 @@ const Contact = () => {
               </div>
               
               <div>
+                <h2 className="text-2xl text-architectural mb-4">Project inquiry</h2>
+                <p className="text-muted-foreground text-sm mb-6">
+                  Include: What you're building · Must-have features · Target launch date · Budget range (optional)
+                </p>
                 <form className="space-y-6">
                   <div className="grid sm:grid-cols-2 gap-6">
                     <div>
@@ -94,9 +103,10 @@ const Contact = () => {
                     size="lg"
                     className="w-full sm:w-auto px-8 bg-primary hover:bg-primary/90 text-primary-foreground"
                   >
-                    Send Message
+                    Get next steps
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
+                  <p className="text-xs text-muted-foreground">We'll reply within 1 business day.</p>
                 </form>
               </div>
             </div>

@@ -1,0 +1,1009 @@
+--------------------------------
+SECTION: Hero (Homepage /)
+
+ISSUES:
+- Value proposition is strong but generic; it doesn’t clearly differentiate Rabitah (e.g., Telegram Mini Apps/bots, end-to-end delivery, measurable outcomes).
+- Two equal CTAs compete (“Start Your Project” and “View Our Work”), weakening the primary action.
+- Stats (150+, 50+, 5+) are unqualified (what counts as a project/client?) and feel like vanity metrics without a credibility anchor.
+- “Digital Agency” label is generic and doesn’t include a keyword-rich positioning line.
+
+RECOMMENDED TEXT:
+H1:
+Build and ship digital products that scale
+
+H2:
+Web apps, mobile apps, and Telegram Mini Apps—designed and engineered for speed, reliability, and conversion.
+
+BODY TEXT:
+Rabitah is a remote-first product team for founders and growing companies. We take you from concept to launch, then iterate with clear priorities and measurable outcomes.
+
+CTA:
+Book a discovery call
+
+NOTES:
+- Keep one primary button (above), and make “View case studies” a secondary text link to reduce CTA competition.
+- Add one proof line under the CTA: “Trusted by 50+ teams • 150+ launches since 2019” (or replace with accurate proof you can defend).
+- Consider a short “Best for” line to reduce ambiguity: “Best for: MVPs, redesigns, and scaling existing products.”
+--------------------------------
+SECTION: Services (Homepage /)
+
+ISSUES:
+- Heading “Services” is too broad; doesn’t signal outcomes or key service keywords.
+- Descriptions are decent but could be tighter and more benefit-led (less “what we do”, more “what you get”).
+- No primary CTA for this section, which is a missed conversion moment for visitors not ready to scroll further.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Hero)
+
+H2:
+Digital product development services
+
+BODY TEXT:
+Choose a lane—or let us scope the fastest path to launch. We design, build, and optimize products that are easy to use, fast to load, and ready to scale.
+
+CTA:
+Explore all services
+
+NOTES:
+- Rename the small label from “WHAT WE DO” to “SERVICES” (cleaner) or “HOW WE HELP” (more human).
+- Keep each service description to one sentence. Lead with outcome, then capability.
+--------------------------------
+SECTION: Tech Stack (Homepage /)
+
+ISSUES:
+- “Our Stack” is not value-led; it reads like a list rather than a reason to trust delivery quality.
+- No framing for why these technologies matter (speed, maintainability, hiring, stability).
+- No CTA for visitors who want reassurance about implementation approach.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Hero)
+
+H2:
+Modern stack. Production-ready delivery.
+
+BODY TEXT:
+We use proven technologies that keep products fast, secure, and maintainable. That means fewer bugs, faster iterations, and lower long-term costs.
+
+CTA:
+See how we deliver (process)
+
+NOTES:
+- Add one credibility line under the heading: “React/Next.js • React Native/Flutter • Node/Python • Postgres • CI/CD”.
+- If you keep categories (Frontend/Backend/Mobile/DevOps), add one short “why it matters” line per category (e.g., “Frontend: fast UX and SEO-friendly rendering”).
+--------------------------------
+SECTION: Why Choose Us (Homepage /)
+
+ISSUES:
+- Micro-label “WHY NEXUS” is a brand error and reduces trust immediately.
+- Benefits are good but feel generic; no specificity (what “fast delivery” means, what “support” includes).
+- No CTA; this section should convert hesitant users with a next step.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Hero)
+
+H2:
+Why teams choose Rabitah
+
+BODY TEXT:
+You get senior execution with a simple process: clear scope, weekly progress, and a product that’s stable at launch. No surprises. No “black box” delivery.
+
+CTA:
+Start with a project scope call
+
+NOTES:
+- Update the label to “WHY RABITAH” or remove it entirely.
+- Add one proof point per card when possible (e.g., “Typical MVP launch: 4–8 weeks”).
+- Keep 4–5 reasons max; prioritize outcomes over traits.
+--------------------------------
+SECTION: Portfolio (Homepage /)
+
+ISSUES:
+- “Portfolio” is fine, but “Selected work / case studies” is stronger for conversion and SEO intent.
+- “View Project” is a dead-end if projects don’t have detail pages; it should either link to case studies or be removed.
+- Outcomes are present (“3x conversion increase”, “100K+ downloads”) but lack context (what changed? timeframe?).
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Hero)
+
+H2:
+Selected work and outcomes
+
+BODY TEXT:
+A few examples of products we’ve designed and built—focused on performance, usability, and real business results.
+
+CTA:
+View all work
+
+NOTES:
+- If you don’t have case study pages, change “View Project” to “Request a similar build” (links to Contact) or remove the button and rely on the section CTA.
+- For each project, add a single “Problem → Solution → Outcome” line to make scanning faster.
+--------------------------------
+SECTION: About (Homepage /)
+
+ISSUES:
+- “We’re a Team of Builders” is strong, but the copy repeats ideas found elsewhere and lacks a clear differentiator.
+- “No fluff” is good, but it’s still abstract—add what that means in practice (scope discipline, measurable milestones).
+- Approach bullets are good but could be more concrete and benefit-led.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Hero)
+
+H2:
+A senior team for product execution
+
+BODY TEXT:
+We’re a remote-first team that builds products with a clear point of view: ship what matters, measure what works, and keep the codebase clean. From MVPs to rewrites, we partner closely with your team to reduce risk and speed up delivery.
+
+CTA:
+Learn how we work
+
+NOTES:
+- Replace “Founded in 2019…” paragraph with one credibility line plus industries served (keep it short).
+- Consider adding one “Who we work with” micro-list: “Startups • SaaS • Fintech • E-commerce • Communities”.
+--------------------------------
+SECTION: Contact (Homepage /)
+
+ISSUES:
+- Headline is friendly but generic; it doesn’t set expectations (response time, what info to send, what happens next).
+- Contact details elsewhere are inconsistent (Rabitah vs Nexus); this undermines trust.
+- Form CTA “Send Message” is okay but could be more outcome-oriented.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Hero)
+
+H2:
+Tell us what you’re building
+
+BODY TEXT:
+Share your goals, timeline, and must-have features. We’ll reply within 1 business day with next steps and a clear plan.
+
+CTA:
+Send project details
+
+NOTES:
+- Add 3 quick helper bullets near the form: “Goal • Deadline • Budget range (optional)”.
+- Ensure email + Telegram handle match the Footer and brand (use Rabitah everywhere).
+--------------------------------
+SECTION: Footer (Homepage /)
+
+ISSUES:
+- Brand message is good but could be tighter and more specific to core offerings.
+- Social links currently look like placeholders (generic GitHub/LinkedIn/Twitter URLs) which can reduce trust.
+- Contact info is inconsistent across the site (Footer uses Rabitah; Contact page uses Nexus).
+- Privacy/Terms links exist but pages/routes may not; broken links hurt trust and SEO.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Hero)
+
+H2:
+(Not used in this section)
+
+BODY TEXT:
+Rabitah builds web apps, mobile apps, and Telegram Mini Apps for teams that need speed without cutting corners. Remote-first. Worldwide.
+
+CTA:
+Get a project estimate
+
+NOTES:
+- Use real social URLs only; remove any you can’t support yet.
+- Standardize contact to one email and one Telegram handle across all pages.
+- SEO note: update site meta title/description to match positioning (e.g., “Rabitah | Digital Product Development Agency”) and keep a unique description per route where possible.
+--------------------------------
+SECTION: Hero (Services Page /services)
+
+ISSUES:
+- H1 “Services” is too generic; it misses high-intent keywords.
+- No short positioning paragraph to guide which service to pick.
+- The section lacks a primary CTA for visitors who already know what they want.
+
+RECOMMENDED TEXT:
+H1:
+Digital product development services
+
+H2:
+Design, engineering, and growth support—shipped with a clear process.
+
+BODY TEXT:
+From MVP builds to complex integrations, we help teams launch faster and scale with confidence. Choose a service below, or contact us for a tailored scope.
+
+CTA:
+Request a quote
+
+NOTES:
+- Keep “WHAT WE DO” as a smaller label only if it adds clarity; otherwise remove.
+--------------------------------
+SECTION: Services List (Services Page /services)
+
+ISSUES:
+- Card intros truncate descriptions (“slice(0, 100)…”), which can cut sentences awkwardly and reduce clarity.
+- Titles are all-caps in data; all-caps reduces readability and feels less premium.
+- No guidance on “best for” per service, which would reduce decision friction.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Services Hero)
+
+H2:
+Choose the right service
+
+BODY TEXT:
+Each service includes a clear scope, timeline, and deliverables. If you’re unsure, we’ll recommend the fastest path to launch after a short discovery call.
+
+CTA:
+Compare timelines and starting budgets
+
+NOTES:
+- Add a one-line “Best for” per service (e.g., “Best for: MVP launches, marketing sites, SaaS rebuilds”).
+- Use Title Case service names for readability.
+--------------------------------
+SECTION: Footer (Services Page /services)
+
+ISSUES:
+- Footer is present, but the CTA could be more aligned to services intent (quote/scope).
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Services Hero)
+
+H2:
+(Not used in this section)
+
+BODY TEXT:
+Talk to Rabitah about your timeline, scope, and success metrics. We’ll recommend an approach that fits your team and budget.
+
+CTA:
+Get a services quote
+
+NOTES:
+- Ensure the same email/Telegram is used across the site.
+--------------------------------
+SECTION: Hero (Service Detail Page /services/:slug)
+
+ISSUES:
+- Service title is all-caps in data; readability and premium tone suffer.
+- Subtitle/description are feature-heavy; they should lead with outcomes and “who it’s for”.
+- No immediate next-step CTA above the fold; service pages should convert.
+
+RECOMMENDED TEXT:
+H1:
+[Service name in Title Case]
+
+H2:
+[Outcome-led subtitle, e.g., “Fast, scalable builds with SEO-ready foundations.”]
+
+BODY TEXT:
+We deliver a clear scope, weekly progress, and production-ready quality. Expect a product that loads fast, stays stable, and is easy to maintain as you grow.
+
+CTA:
+Get a quote for this service
+
+NOTES:
+- Add one short “Best for” line under the subtitle (e.g., “Best for: MVPs, redesigns, performance fixes, scaling.”).
+--------------------------------
+SECTION: What's Included (Service Detail Page /services/:slug)
+
+ISSUES:
+- “What’s Included” list is helpful but lacks grouping; long lists are harder to scan.
+- Items are phrased inconsistently (mix of nouns and phrases).
+- No CTA at the end of the list for high-intent users.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Service Hero)
+
+H2:
+What’s included
+
+BODY TEXT:
+You get the essentials for a strong launch—product UX, engineering, and the foundations for performance and growth.
+
+CTA:
+Ask for a scope checklist
+
+NOTES:
+- Group features under 3–4 mini headings (H3): “Product & UX”, “Engineering”, “Performance & SEO”, “Analytics & Handoff”.
+--------------------------------
+SECTION: Our Process (Service Detail Page /services/:slug)
+
+ISSUES:
+- Process is solid but generic; doesn’t communicate what the client receives at each step.
+- “Design & Prototyping” appears in multiple services; align naming to one consistent process.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Service Hero)
+
+H2:
+A simple process that keeps you in control
+
+BODY TEXT:
+Each step ends with a clear deliverable—so you always know what’s done, what’s next, and what decisions you need to make.
+
+CTA:
+See a sample timeline
+
+NOTES:
+- For each step, add one “Deliverable” line (e.g., “Discovery: scope + milestones”, “Design: clickable prototype”, “Build: staging releases”, “Launch: QA + deployment plan”).
+--------------------------------
+SECTION: Timeline & Pricing (Service Detail Page /services/:slug)
+
+ISSUES:
+- “Starting at” can feel salesy without context; users need what influences pricing.
+- Timeline and pricing are strong conversion content but lack a next step.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Service Hero)
+
+H2:
+Timeline and starting budget
+
+BODY TEXT:
+We price based on scope, complexity, and speed. After a short call, you’ll receive a clear estimate with milestones and deliverables.
+
+CTA:
+Get an estimate
+
+NOTES:
+- Add a short line: “Includes: design (if needed), development, QA, launch support.”
+- Add “Optional add-ons” list to reduce uncertainty (e.g., ongoing support, growth experiments, content/SEO).
+--------------------------------
+SECTION: CTA (Service Detail Page /services/:slug)
+
+ISSUES:
+- CTA copy is generic (“something amazing”); it should match service intent and reduce friction.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Service Hero)
+
+H2:
+Let’s scope this in one call
+
+BODY TEXT:
+Tell us what you’re building and your target date. We’ll propose the fastest path to launch, plus options if you want to phase the work.
+
+CTA:
+Book a service call
+
+NOTES:
+- Add microcopy under the button: “Reply in 1 business day.”
+--------------------------------
+SECTION: Prev/Next Navigation (Service Detail Page /services/:slug)
+
+ISSUES:
+- “Previous/Next” is functional but not descriptive; add clarity for scanning.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Service Hero)
+
+H2:
+(Not used in this section)
+
+BODY TEXT:
+Explore related services that often pair well with this work (e.g., UI/UX + Web Development, Growth + Landing Page optimization).
+
+CTA:
+View all services
+
+NOTES:
+- Consider replacing “Previous/Next” with “Related services” for intent alignment.
+--------------------------------
+SECTION: Footer (Service Detail Page /services/:slug)
+
+ISSUES:
+- Footer is present; ensure service pages keep the same contact info as the rest of the site.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Service Hero)
+
+H2:
+(Not used in this section)
+
+BODY TEXT:
+Ready to move? Share your requirements and we’ll respond with a clear plan and estimate.
+
+CTA:
+Contact Rabitah
+
+NOTES:
+- Keep all brand mentions as Rabitah (avoid any “Nexus” leftovers).
+--------------------------------
+SECTION: Hero (Work Page /work)
+
+ISSUES:
+- H1 “OUR WORK” is loud but not descriptive; “Case studies” / “Work” with outcomes reads more premium and SEO-friendly.
+- Intro is good but could be more specific (what type of work, what outcomes).
+- No immediate CTA for visitors who like what they see.
+
+RECOMMENDED TEXT:
+H1:
+Case studies and product launches
+
+H2:
+Real builds. Real outcomes.
+
+BODY TEXT:
+Explore selected web, mobile, and Telegram products we’ve shipped—from MVPs to mature platforms. Each case study focuses on the problem, the solution, and measurable results.
+
+CTA:
+Start a project brief
+
+NOTES:
+- Consider adding 3 quick filters that match buyer intent: “MVP”, “Scale-up”, “Telegram”, “E-commerce”, “Fintech”.
+--------------------------------
+SECTION: Filters (Work Page /work)
+
+ISSUES:
+- Filter labels (“WEB APP”, “TELEGRAM”) are fine, but could be clearer and more human.
+- No instructional microcopy (“Filter by platform”).
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Work Hero)
+
+H2:
+Filter by platform
+
+BODY TEXT:
+Choose a category to quickly find relevant work.
+
+CTA:
+View all case studies
+
+NOTES:
+- Use Title Case: “Web Apps”, “Telegram”, “All”.
+--------------------------------
+SECTION: Projects Grid (Work Page /work)
+
+ISSUES:
+- Project descriptions are far too long for scanning; they read like full articles.
+- Titles have inconsistent capitalization (“Product-Showcase PLATFORM”).
+- Missing a consistent structure (Problem / Solution / Result), which hurts clarity and conversion.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Work Hero)
+
+H2:
+Selected projects
+
+BODY TEXT:
+For each project card, use the same 3-line structure:
+1) What it is (one sentence)
+2) What we built (one sentence)
+3) Outcome (one metric if available)
+
+Example card copy (replace current long paragraphs):
+- Mansarda Fakro (Web platform)
+  A product showcase platform for architectural projects and inspiration.
+  Built a fast, searchable experience with performance and SEO in mind.
+  Outcome: Improved discovery and lead quality.
+
+- Street.rf (Commercial listings)
+  A marketplace for renting and selling commercial spaces.
+  Built filtering, inquiry capture, and broker workflows for high-intent leads.
+  Outcome: Faster inquiries and better broker matching.
+
+- DITKURS.ru (Education content)
+  A content platform for exploring IT careers and course comparisons.
+  Built a scalable publishing experience with clear navigation and search.
+  Outcome: Higher engagement on key guides.
+
+- Telegram Planeton (Telegram Mini App)
+  A Telegram clicker game with rewards and on-chain payments.
+  Built a Mini App UX with secure integrations and analytics.
+  Outcome: Higher retention and recurring activity.
+
+CTA:
+Request a similar build
+
+NOTES:
+- Keep “Tech” and “Year” but add “Outcome” as the first item users see.
+- Use consistent location phrasing (or remove location if it doesn’t add trust).
+--------------------------------
+SECTION: CTA (Work Page /work)
+
+ISSUES:
+- CTA is good but generic; it can be more specific about next step and response time.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Work Hero)
+
+H2:
+Want results like these?
+
+BODY TEXT:
+Send your goals and target date. We’ll reply within 1 business day with next steps and a recommended approach.
+
+CTA:
+Get in touch
+
+NOTES:
+- Use a button-style CTA for clarity (not only an underlined text link).
+--------------------------------
+SECTION: Footer (missing) (Work Page /work)
+
+ISSUES:
+- No footer means fewer trust signals, fewer internal links, and fewer conversion paths at the end of the page.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Work Hero)
+
+H2:
+(Not used in this section)
+
+BODY TEXT:
+Rabitah builds web apps, mobile apps, and Telegram Mini Apps for teams that need speed without cutting corners.
+
+CTA:
+Get a project estimate
+
+NOTES:
+- Add the global footer to this route for consistency and SEO internal linking.
+--------------------------------
+SECTION: Hero (About Page /about)
+
+ISSUES:
+- H1 repeats the homepage message; About should add credibility and differentiation (team, principles, ways of working).
+- Copy is good but still abstract; add how you work and what clients can expect.
+- Missing a clear CTA for high-intent visitors.
+
+RECOMMENDED TEXT:
+H1:
+A product team built for shipping
+
+H2:
+Senior design and engineering, delivered with a clear process.
+
+BODY TEXT:
+Rabitah is a remote-first digital product agency. We help teams launch, improve, and scale products with disciplined scope, clear communication, and production-ready quality.
+
+CTA:
+See our process
+
+NOTES:
+- Add one short credibility line: “150+ projects shipped since 2019” (only if accurate).
+--------------------------------
+SECTION: Approach (About Page /about)
+
+ISSUES:
+- Approach steps are solid but generic; clarify the client benefit and output of each stage.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from About Hero)
+
+H2:
+How we work
+
+BODY TEXT:
+We keep delivery simple and transparent:
+- Understand: align on goals, users, constraints, and success metrics
+- Build: ship in weekly increments with clear priorities
+- Improve: measure, iterate, and keep performance high
+
+CTA:
+Book a discovery call
+
+NOTES:
+- Rename the mini headings to verbs for clarity: “Align”, “Ship”, “Optimize”.
+--------------------------------
+SECTION: Company Stats (About Page /about)
+
+ISSUES:
+- Stats are good but should reinforce trust (what “projects” means, what industries).
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from About Hero)
+
+H2:
+Proof you can trust
+
+BODY TEXT:
+150+ launches across SaaS, fintech, e-commerce, and community products. Remote-first team working across time zones.
+
+CTA:
+Talk to the team
+
+NOTES:
+- If possible, add 2–3 client logo slots or short testimonials near stats (no fluff, just outcomes).
+--------------------------------
+SECTION: Footer (About Page /about)
+
+ISSUES:
+- Footer is present; ensure About ends with a strong conversion CTA, not just navigation.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from About Hero)
+
+H2:
+(Not used in this section)
+
+BODY TEXT:
+If you need a team to design and ship with confidence, let’s talk scope and timelines.
+
+CTA:
+Get in touch
+
+NOTES:
+- Keep contact info consistent (Rabitah email + Telegram handle).
+--------------------------------
+SECTION: Hero (Contact Page /contact)
+
+ISSUES:
+- Good headline, but it’s generic; add what happens next and what to include.
+- Brand inconsistency risk: the page currently references “Nexus” contact info in multiple places on the site.
+
+RECOMMENDED TEXT:
+H1:
+Talk to Rabitah
+
+H2:
+Tell us your goal. We’ll reply within 1 business day.
+
+BODY TEXT:
+Share what you’re building, your target date, and any constraints. We’ll come back with a recommended plan and a clear estimate.
+
+CTA:
+Send a project brief
+
+NOTES:
+- Standardize contact details everywhere (use one Rabitah email + one Telegram handle).
+--------------------------------
+SECTION: Contact Methods (Contact Page /contact)
+
+ISSUES:
+- Email/Telegram currently reference “nexus” in some places; this is a critical trust issue.
+- No reassurance about privacy/next steps.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Contact Hero)
+
+H2:
+Contact details
+
+BODY TEXT:
+Email us for detailed requests, or message on Telegram for quick questions. We respond within 1 business day.
+
+CTA:
+Email Rabitah
+
+NOTES:
+- Use the same email as the footer (e.g., hello@rabitah.com) and the same Telegram handle.
+--------------------------------
+SECTION: Contact Form (Contact Page /contact)
+
+ISSUES:
+- “Subject” placeholder (“Project inquiry”) is generic; guide users toward better inputs.
+- Form CTA is neutral; make it outcome-led.
+- Missing microcopy about response time and what’s next.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Contact Hero)
+
+H2:
+Project inquiry
+
+BODY TEXT:
+Include:
+- What you’re building
+- Must-have features
+- Target launch date
+- Budget range (optional)
+
+CTA:
+Get next steps
+
+NOTES:
+- Add microcopy under the button: “We’ll reply within 1 business day.”
+- Consider adding a dropdown for “Service interest” to reduce typing and improve lead routing.
+--------------------------------
+SECTION: Footer (Contact Page /contact)
+
+ISSUES:
+- Footer is present; ensure its CTA doesn’t conflict with the form CTA (keep one primary action on-page).
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Contact Hero)
+
+H2:
+(Not used in this section)
+
+BODY TEXT:
+Prefer a quick call? We can scope the first version in 20 minutes.
+
+CTA:
+Book a discovery call
+
+NOTES:
+- Keep footer CTA as a secondary option if the form already dominates.
+--------------------------------
+SECTION: Hero (Blog Page /blog)
+
+ISSUES:
+- Blog positioning is off-brand: it focuses on architecture/design, while the company is a digital agency—hurts topical authority and conversion.
+- Categories (“SUSTAINABILITY”, “DESIGN”, “URBAN PLANNING”) don’t match buyer intent for digital services.
+- No CTA to connect reading to contacting or subscribing with a clear value promise.
+
+RECOMMENDED TEXT:
+H1:
+Product, UX, and engineering insights
+
+H2:
+Practical guidance for building, launching, and scaling digital products.
+
+BODY TEXT:
+Short, opinionated posts from Rabitah—covering product strategy, UI/UX, development, Telegram Mini Apps, and growth.
+
+CTA:
+Subscribe for updates
+
+NOTES:
+- If you keep the existing architecture articles, create a separate category hub and clearly explain why it belongs on this brand; otherwise replace content to match agency expertise.
+--------------------------------
+SECTION: Filters (Blog Page /blog)
+
+ISSUES:
+- Current categories don’t align with services; filtering doesn’t help users find relevant expertise.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Blog Hero)
+
+H2:
+Browse by topic
+
+BODY TEXT:
+Pick a topic to find posts relevant to your build and launch stage.
+
+CTA:
+See all posts
+
+NOTES:
+- Recommended categories: “Product Strategy”, “UX/UI”, “Web Development”, “Mobile”, “Telegram”, “Growth”.
+--------------------------------
+SECTION: Posts Grid (Blog Page /blog)
+
+ISSUES:
+- “READ MORE” is generic; consider a more specific action (“Read article”).
+- Excerpts are long and abstract; make them more tactical and benefit-led.
+- Author roles should match the agency (not “Architect & Writer” unless intentional).
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Blog Hero)
+
+H2:
+Latest articles
+
+BODY TEXT:
+Each post should answer one clear question and include practical takeaways. Keep titles specific and outcome-led.
+
+CTA:
+Read the latest post
+
+NOTES:
+- Use title patterns that match search intent, e.g.:
+  - “How to scope an MVP in 60 minutes (with a checklist)”
+  - “Telegram Mini Apps: what to build first for retention”
+  - “Landing page UX fixes that improve conversions”
+--------------------------------
+SECTION: Newsletter (Blog Page /blog)
+
+ISSUES:
+- Newsletter pitch is generic and currently tied to architecture; it should state value and frequency.
+- No trust microcopy (no spam, unsubscribe anytime).
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Blog Hero)
+
+H2:
+Get one useful idea each month
+
+BODY TEXT:
+No fluff. One short email with product, UX, and engineering insights you can apply immediately. Unsubscribe anytime.
+
+CTA:
+Subscribe
+
+NOTES:
+- Add microcopy under the button: “No spam. Unsubscribe anytime.”
+--------------------------------
+SECTION: Footer (missing) (Blog Page /blog)
+
+ISSUES:
+- Footer missing reduces trust and internal navigation for readers who reach the end.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Blog Hero)
+
+H2:
+(Not used in this section)
+
+BODY TEXT:
+Want help applying these ideas? Rabitah can scope and ship the work with you.
+
+CTA:
+Talk to Rabitah
+
+NOTES:
+- Add the global footer to reinforce brand and provide conversion paths.
+--------------------------------
+SECTION: Hero (Blog Post Page /blog/:id)
+
+ISSUES:
+- Risk of multiple H1s: the article renderer turns markdown “# ” into H1 inside the content, which can create more than one H1 on the page.
+- Post content topics are currently architecture-centric; they dilute agency topical authority.
+- Author role (“Architect & Writer”) may not match the brand and can confuse readers.
+
+RECOMMENDED TEXT:
+H1:
+[Post title: specific, outcome-led]
+
+H2:
+[One-sentence promise of what the reader will learn]
+
+BODY TEXT:
+This article covers the key decisions, pitfalls, and a practical checklist—so you can move faster with fewer mistakes.
+
+CTA:
+Get a scope checklist
+
+NOTES:
+- Heading rule: keep only the page title as H1. Convert in-article headings to H2/H3.
+- Add one short “Want help?” callout at the end of the article (links to Contact).
+--------------------------------
+SECTION: Featured Image (Blog Post Page /blog/:id)
+
+ISSUES:
+- Images are fine but need descriptive alt text that matches the post topic (not just the title).
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Blog Post Hero)
+
+H2:
+(Not used in this section)
+
+BODY TEXT:
+Alt text pattern: describe what’s shown and why it matters (e.g., “Wireframe of onboarding flow showing 3-step signup”).
+
+CTA:
+(Not used in this section)
+
+NOTES:
+- Keep alt text short and descriptive; avoid stuffing keywords.
+--------------------------------
+SECTION: Article Content (Blog Post Page /blog/:id)
+
+ISSUES:
+- Current content is long-form and well-written, but mismatched to the agency positioning.
+- In-article headings can be improved for scannability (shorter, more specific).
+- Missing “key takeaways” summary to help skimmers.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Blog Post Hero)
+
+H2:
+Key takeaways
+
+BODY TEXT:
+Add a short summary block near the top:
+- What to do first
+- What to avoid
+- What success looks like
+
+CTA:
+Ask a question about your project
+
+NOTES:
+- Use short sections with clear subheads (H3). Keep paragraphs under 3 lines where possible.
+--------------------------------
+SECTION: Author Block (Blog Post Page /blog/:id)
+
+ISSUES:
+- Author role is generic and may not match brand expertise.
+- No credibility line (what they do, what they’ve shipped).
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Blog Post Hero)
+
+H2:
+About the author
+
+BODY TEXT:
+[Author name] is part of Rabitah’s product team, working across UX, engineering, and delivery. Focus: shipping usable products with measurable outcomes.
+
+CTA:
+Work with Rabitah
+
+NOTES:
+- Keep it short; one line of credibility is enough.
+--------------------------------
+SECTION: Related Posts (Blog Post Page /blog/:id)
+
+ISSUES:
+- “Related Articles” is fine, but it should keep readers within a clear topic journey (UX → build → launch).
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Blog Post Hero)
+
+H2:
+Recommended next reads
+
+BODY TEXT:
+Continue with posts that help you apply what you learned—templates, checklists, and practical examples.
+
+CTA:
+Back to all posts
+
+NOTES:
+- Curate by intent, not only category.
+--------------------------------
+SECTION: Footer (missing) (Blog Post Page /blog/:id)
+
+ISSUES:
+- Footer missing reduces trust, internal links, and conversion options.
+
+RECOMMENDED TEXT:
+H1:
+(Use page H1 from Blog Post Hero)
+
+H2:
+(Not used in this section)
+
+BODY TEXT:
+If you want help implementing this, Rabitah can scope and ship it with you—fast, clean, and production-ready.
+
+CTA:
+Get next steps
+
+NOTES:
+- Add the global footer for consistency across routes.
+--------------------------------
+SECTION: Hero (404 Page)
+
+ISSUES:
+- Current 404 is visually inconsistent with the rest of the site (different typography and color system).
+- Copy is generic and doesn’t help users recover with useful paths (Services, Work, Contact).
+- Missed opportunity to convert lost visitors.
+
+RECOMMENDED TEXT:
+H1:
+Page not found
+
+H2:
+Let’s get you back on track.
+
+BODY TEXT:
+The page may have moved, or the link may be outdated. Use one of the options below to continue.
+
+CTA:
+Go to homepage
+
+NOTES:
+- Add two secondary links under the CTA: “View services” and “Contact Rabitah”.
+- Keep the tone calm and premium; avoid “Oops!”.
+--------------------------------

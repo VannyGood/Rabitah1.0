@@ -13,7 +13,7 @@ const Footer = () => {
     company: [
       { label: "About", href: "/about" },
       { label: "Work", href: "/work" },
-      { label: "Blog", href: "/blog" },
+      { label: "Testimonials", href: "/blog" },
       { label: "Contact", href: "/contact" },
     ],
     social: [
@@ -36,9 +36,14 @@ const Footer = () => {
                 RABITAH<span className="text-primary">.</span>
               </a>
               <p className="text-secondary-foreground/60 text-sm mb-6 max-w-xs leading-relaxed">
-                Building digital products that scale. 
-                From idea to launch — fast.
+                Rabitah builds web apps, mobile apps, and Telegram Mini Apps for teams that need speed without cutting corners. Remote-first. Worldwide.
               </p>
+              <a 
+                href="/contact" 
+                className="inline-flex items-center text-sm font-medium text-primary hover:underline mb-6"
+              >
+                Get a project estimate
+              </a>
               {/* Social Links */}
               <div className="flex gap-3">
                 {links.social.map((social, index) => (

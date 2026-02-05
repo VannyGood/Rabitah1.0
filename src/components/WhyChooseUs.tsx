@@ -1,11 +1,12 @@
 import { Zap, Code2, TrendingUp, MessageCircle, Shield } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const WhyChooseUs = () => {
   const reasons = [
     {
       icon: Zap,
       title: "Fast Delivery",
-      description: "We move quickly without compromising quality. Your project, launched on time."
+      description: "Typical MVP launch: 4–8 weeks. We move quickly without compromising quality. Your project, launched on time."
     },
     {
       icon: Code2,
@@ -35,10 +36,16 @@ const WhyChooseUs = () => {
         <div className="max-w-7xl mx-auto">
           {/* Header */}
           <div className="mb-16 md:mb-20">
-            <span className="text-minimal text-muted-foreground mb-4 block">WHY NEXUS</span>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl text-architectural">
-              Why Choose Us
+            <span className="text-minimal text-muted-foreground mb-4 block">WHY RABITAH</span>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl text-architectural mb-6">
+              Why teams choose Rabitah
             </h2>
+            <p className="text-muted-foreground leading-relaxed max-w-2xl mb-10">
+              You get senior execution with a simple process: clear scope, weekly progress, and a product that's stable at launch. No surprises. No "black box" delivery.
+            </p>
+            <Button asChild size="sm" className="px-6">
+              <a href="/contact">Start with a project scope call</a>
+            </Button>
           </div>
           
           {/* Reasons */}

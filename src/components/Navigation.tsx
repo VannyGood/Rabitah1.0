@@ -49,7 +49,7 @@ const Navigation = () => {
             About
           </a>
           <a href="/blog" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            Blog
+            Testimonials
           </a>
         </div>
 
@@ -131,7 +131,7 @@ const Navigation = () => {
               className="block text-lg text-muted-foreground hover:text-foreground transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Blog
+              Testimonials
             </a>
             
             <div className="pt-4 border-t border-border">

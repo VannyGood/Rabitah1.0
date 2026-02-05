@@ -1,38 +1,17 @@
 import { ArrowUpRight } from "lucide-react";
-import projectWebApp from "@/assets/project-web-app.jpg";
-import projectMobileApp from "@/assets/project-mobile-app.jpg";
-import projectTelegram from "@/assets/project-telegram.jpg";
+import { workProjects } from "@/data/workProjects";
 
 const Portfolio = () => {
-  const projects = [
-    {
-      image: projectWebApp,
-      number: "01",
-      title: "E-Commerce Platform",
-      category: "Web Application",
-      description: "Full-stack marketplace with real-time inventory, payment processing, and analytics dashboard.",
-      tech: ["Next.js", "Supabase", "Stripe"],
-      result: "3x conversion increase"
-    },
-    {
-      image: projectMobileApp,
-      number: "02",
-      title: "FinTech Mobile App",
-      category: "Mobile Application",
-      description: "Cross-platform banking app with biometric auth, instant transfers, and investment tracking.",
-      tech: ["React Native", "Node.js", "PostgreSQL"],
-      result: "100K+ downloads"
-    },
-    {
-      image: projectTelegram,
-      number: "03",
-      title: "Telegram Mini App",
-      category: "Telegram Bot",
-      description: "Gamified loyalty platform with rewards, leaderboards, and in-app payments via TON.",
-      tech: ["Telegram API", "TON", "React"],
-      result: "50K active users"
-    }
-  ];
+  const projects = workProjects.slice(0, 3).map((p, i) => ({
+    slug: p.slug,
+    image: p.image,
+    number: `0${i + 1}`,
+    title: p.title,
+    category: p.category,
+    description: p.oneLiner,
+    tech: p.tech.split(", "),
+    result: p.outcome
+  }));
 
   return (
     <section id="work" className="py-24 md:py-32 bg-muted/50">
@@ -41,16 +20,25 @@ const Portfolio = () => {
           {/* Header */}
           <div className="mb-16 md:mb-20">
             <span className="text-minimal text-muted-foreground mb-4 block">SELECTED WORK</span>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl text-architectural">
-              Portfolio
+            <h2 className="text-4xl md:text-5xl lg:text-6xl text-architectural mb-6">
+              Selected work and outcomes
             </h2>
+            <p className="text-muted-foreground leading-relaxed max-w-2xl mb-10">
+              A few examples of products we've designed and built—focused on performance, usability, and real business results.
+            </p>
+            <a 
+              href="/work" 
+              className="inline-flex items-center text-sm font-medium text-primary hover:underline"
+            >
+              View all work
+            </a>
           </div>
           
           {/* Projects */}
           <div className="space-y-20 md:space-y-32">
             {projects.map((project, index) => (
               <div 
-                key={index} 
+                key={project.slug} 
                 className="group grid md:grid-cols-2 gap-8 md:gap-16 items-center"
               >
                 {/* Image */}
@@ -97,10 +85,10 @@ const Portfolio = () => {
                       <span className="text-minimal text-muted-foreground block mb-1">Result</span>
                       <span className="text-primary font-medium">{project.result}</span>
                     </div>
-                    <button className="flex items-center gap-2 text-sm hover:text-primary transition-colors">
-                      View Project
+                    <a href="/contact" className="flex items-center gap-2 text-sm hover:text-primary transition-colors">
+                      Request a similar build
                       <ArrowUpRight className="w-4 h-4" />
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
